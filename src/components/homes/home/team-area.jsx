@@ -24,7 +24,7 @@ const TeamArea = ({bg_style}) => {
                      <div className="row align-items-end">
                         <div className="col-xl-6 col-lg-6 col-md-6">
                            <div className={`tp-team-section-box ${bg_style && "text-center text-sm-start"}`}> 
-                              <h5 className={`${bg_style ? "inner-section-subtitle" : "tp-section-subtitle-4"} pb-10`}>{sub_title}<i class="fal fa-fire"></i></h5>
+                              <h5 className={`${bg_style ? "inner-section-subtitle" : "tp-section-subtitle-4"} pb-10`}>{sub_title}<i className="fal fa-fire"></i></h5>
                               <h3 className={`${bg_style ? "tp-section-title mb-0 text-black" : "tp-section-title-4"}`}>{title}</h3>
                            </div>
                         </div>
