@@ -51,7 +51,7 @@ const about_content = {
         <>Decentralized Digital Space Services.</>,
         <>Comprehensive Market Analytics.</>,
     ],
-    btn_text: "About Us",
+    btn_text: "Learn More",
 
 }
 const {title, sub_title, des, about_list, btn_text}  = about_content
@@ -84,12 +84,12 @@ const AboutArea = () => {
                                 {about_list.map((item , i)  =>  <li key={i}><i className="fal fa-check"></i>{item}</li>)}
                               </ul>
                            </div>
-                           <div className="tp-about__btn">
+                           {/* <div className="tp-about__btn">
                               <Link className="tp-btn tp-btn-hover alt-color-black" href="https://ordx.market/market">
                                  <span>{btn_text}</span>
                                  <b></b>
                               </Link>
-                           </div>
+                           </div> */}
                         </div>
                      </div>
                   </div>

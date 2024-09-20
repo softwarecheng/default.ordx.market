@@ -4,8 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import img_community from "../../../../public/assets/img/hero/hero-user.jpg";
-
 
 const team_content = {
     sub_title: "Hot",
@@ -61,7 +59,7 @@ const TeamArea = ({bg_style}) => {
                                  <h4 className="tp-team-title-sm"><Link href={item.link}>{item.name}</Link></h4>
                                  <span>{item.job_title}</span>                                 
                               </div>
-                              <div className='pb-10'><Image src={img_community} alt="theme-pure" /> </div>
+                              <div className='pb-10'><Image src={item.h_img} alt="theme-pure" /> </div>
                               <div className="tp-team-social">
                                  {/* <SocialLinksTwo /> */}
                                  <Link target='_blank' className='icon-color-1' href={item.x_link}>
