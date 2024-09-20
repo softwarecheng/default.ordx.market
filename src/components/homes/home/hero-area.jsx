@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 // img import 
 import scroll_bg from "../../../../public/assets/img/hero/scroll-down.png";
-import users_img from "../../../../public/assets/img/hero/hero-user.jpg";
+import users_img from "../../../../public/assets/img/hero/hero-user.png";
 import hero_shape_1 from "../../../../public/assets/img/hero/hero-img-2-1.png";
 import hero_shape_2 from "../../../../public/assets/img/hero/image_02.png";
 import hero_shape_3 from "../../../../public/assets/img/hero/hero-img-2-3.png";
@@ -21,8 +21,8 @@ const hero_content = {
   bg_img: "/assets/img/hero/hero-bg-2.png",
   scroll_btn: "Scroll Down",
   title: <><i><i className="child-1">Satoshi Asset<br/> </i> </i>{" "}
-  <i><i className="child-1">Marketplace</i> </i>{" "}
-  <i><i className="child-1">in the Bitcoin</i> </i>{" "}
+  <i><i className="child-1">Marketplace<br/></i> </i>{" "}
+  <i><i className="child-1">in the Bitcoin<br/></i> </i>{" "}
   <i><i className="child-1">Ecosystem</i> </i>{" "}
   </>,
    btn_text: "Get Started ...",

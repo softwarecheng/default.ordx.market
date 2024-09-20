@@ -14,18 +14,10 @@ const feature_data = [
         description: <>Protocol for Issuance and Circulation of<br /> Satoshi Assets</>,
 
     },
+    
     {
         id: 2, 
         color: "2",
-        img: feature_img_2,
-        title: <>Magisat </>,
-        link:"https://magisat.io",
-        description: <> A professional platform for trading<br /> Rare Satoshis.</>,
-
-    },
-    {
-        id: 3, 
-        color: "3",
         img: feature_img_3,
         title: <>BTCName</>,
         link:"https://x.com/btcname_did",
@@ -33,13 +25,22 @@ const feature_data = [
 
     },
     {
-        id: 4, 
-        color: "4",
+        id: 3, 
+        color: "3",
         img: feature_img_4,
-        title: <>onl</>,
+        title: <>btc.onl</>,
         link:"https://btc.onl",
         description: <>Seamless Access to Bitcoin Permaweb<br />
         Ordinals Name Lin</>,
+
+    },
+    {
+        id: 4, 
+        color: "4",
+        img: feature_img_2,
+        title: <>Magisat </>,
+        link:"https://magisat.io",
+        description: <> A professional platform for trading<br /> Rare Satoshis.</>,
 
     },
 ]

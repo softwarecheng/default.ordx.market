@@ -51,7 +51,7 @@ const about_content = {
         <>Decentralized Digital Space Services.</>,
         <>Comprehensive Market Analytics.</>,
     ],
-    btn_text: "About Us",
+    btn_text: "Learn More",
 
 }
 const {title, sub_title, des, about_list, btn_text}  = about_content
