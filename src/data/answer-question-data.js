@@ -48,7 +48,7 @@ const answer_question_data = [
   },
   {
     id: 5,
-    question: "How do I manage my digital assets on ordx.market?",
+    question: "How do I manage my digital assets?",
     answer: <>1. Click “Connect Wallet” and follow the prompts.<br/>
     2. Go to “My Assets”: View your assets on this page.<br/>
     3. Categorize: Organize by type and use filters.<br/>

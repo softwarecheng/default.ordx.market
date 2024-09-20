@@ -30,7 +30,7 @@ const rank_data = [
         img: img_1,
         // clg_3: "",
         domain: "ordinalsartmuseum.btc",
-        url:"ordinalsartmuseum.btc.deweb.me",
+        url:"https://ordinalsartmuseum.btc.deweb.me",
         visitors: "1.53M Visits",
 
     },
@@ -43,7 +43,7 @@ const rank_data = [
         img: img_2,
         // clg_3: "",
         domain: "funcollection.btc",
-        url:"funcollection.btc.deweb.me",
+        url:"https://funcollection.btc.deweb.me",
         visitors: "32.2K Visits",
 
     },
@@ -56,7 +56,7 @@ const rank_data = [
         img: img_3,
         // clg_3: "",
         domain: "shroomhub.btc",
-        url:"shroomhub.btc.deweb.me",
+        url:"https://shroomhub.btc.deweb.me",
         visitors: "19.6K Visits",
 
     },
@@ -69,7 +69,7 @@ const rank_data = [
         img: img_4,
         // clg_3: "",
         domain: "ordinalxtribes.btc",
-        url:"ordinalxtribes.btc.deweb.me",
+        url:"https://ordinalxtribes.btc.deweb.me",
         visitors: "12.6k Visits",
 
     },
@@ -171,7 +171,7 @@ const RankArea = () => {
                            <div className="tp-rank__rank-card wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".7s">
 
                             {rank_data.map((item, i)  => 
-                            //  <Link href="{item.url}">
+                        
                                 <div key={i} className={`tp-rank__item p-relative ${item.clg_1}`}>
                                 {item.top_img && 
                                 <div className="tp-rank__cup">
@@ -185,15 +185,15 @@ const RankArea = () => {
                                 <span>{item.count}</span>
                                 </div>
                                 <div className="tp-rank__company">
-                                <span><Link href="https://{item.url}"><Image src={item.img} alt="" /></Link> </span>
+                                <span><Link href={item.url} target='_blank'><Image src={item.img} alt="" /></Link> </span>
                                 </div>
                                 <div className="tp-rank__company-info">
-                                <Link href="https://{item.url}">{item.domain} </Link> 
+                                <Link href={item.url} target='_blank'>{item.domain} </Link> 
                                 <br/><span>{item.visitors}</span>
                                 </div>
                                
                             </div>
-                            // </Link>
+                          
                                 )
                             }
                            </div>
