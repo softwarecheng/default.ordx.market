@@ -41,8 +41,8 @@ const about_data =[
 // about content SAT20Market is a professional platform offering trading and services tailored to the Bitcoin ecosystem and the SAT20 protocol community.
 const about_content = {
     title: "OVER 15K+ CLIENT",
-    sub_title: "Professional Listing and Trading", 
-    des: <>SAT20Market is a professional platform offering trading and services tailored to the Bitcoin ecosystem and the SAT20 protocol community.</>,
+    sub_title: "About us", 
+    des: <>SAT20Market is a professional platform for inscribing, trading, and managing digital assets, specifically serving the Bitcoin ecosystem and the SAT20 protocol community.</>,
 
     about_list: [
         <>SFT (Semi-Fungible Token) Trading.</>,

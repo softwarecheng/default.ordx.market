@@ -8,6 +8,7 @@ import AboutArea from "../../../common/about-area";
 import RankArea from "../home/rank-area";
 import PaymentMethodArea from "./payment-method-area";
 import TeamArea from "../home/team-area";
+import FeatureArea from "./feature-area";
 // import ServiceArea from "./service-area";
 // import TestimonialArea from "./testimonial-area";
 
@@ -28,8 +29,8 @@ const HomeTwo = () => {
       {/* <ServiceArea /> */}
       <RankArea />
       {/* <TestimonialArea /> */}
-      <FaqArea />
-      
+      <FeatureArea/>
+      <FaqArea />      
       </main>
       <FooterTwo />
       </div>
