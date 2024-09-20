@@ -167,7 +167,11 @@
     &-shape-color{
         height: 100%;
         width: 100%;
+<<<<<<< HEAD
         background-color: #1b2852;
+=======
+        background-color: #FF7A59;
+>>>>>>> 14d1974821c4070142b33367b04e427296673ba5
         border-radius: 50%;
         position: absolute;
         top: 0%;
@@ -175,6 +179,7 @@
         transition: .3s;
         z-index: -1;
         &-2{
+<<<<<<< HEAD
             background: #550253;
         }
         &-3{
@@ -182,6 +187,15 @@
         }
         &-4{
             background: #ff7b00;
+=======
+            background: #FFE01B;
+        }
+        &-3{
+            background: #AAE0F4;
+        }
+        &-4{
+            background: #03363D;
+>>>>>>> 14d1974821c4070142b33367b04e427296673ba5
         }
     }
     &-item-1{
