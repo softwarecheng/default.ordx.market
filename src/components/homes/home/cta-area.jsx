@@ -23,7 +23,7 @@ const CtaArea = () => {
                            <div className="tp-cta-content text-center">
                               <h3 className="tp-section-title-lg text-white">{title}</h3>
                               <p>{info}</p>
-                              <Link className="tp-btn-green" href="https://ordx.market/market?type=ns">{btn_text}</Link>
+                              <Link className="tp-btn-green" href="https://app.ordx.market/market?type=ns">{btn_text}</Link>
                            </div>
                         </div>
                      </div>

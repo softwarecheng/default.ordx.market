@@ -6,7 +6,7 @@ const AnswerQuestion = ({style}) => {
   
   return (
     <>
-      <div className="tp-custom-accordion">
+      <div className="tp-custom-accordion bg-grey-3">
         <div className={`accordion ${style && "tp-inner-font"}`} id="accordionExample">
           {answer_question_data.map((item) => (
             <div onClick={() => setShadow(item.id)} key={item.id} 
