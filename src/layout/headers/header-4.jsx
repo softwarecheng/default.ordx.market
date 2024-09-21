@@ -42,7 +42,7 @@ const HeaderFour = ({style_error}) => {
                               </nav>
                            </div>
                         </div>
-                        <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
+                        {/* <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
                            <div className="header-bottom__right d-flex align-items-center justify-content-end"> 
                               <div className={`header-bottom__action ${style_error ? "" : "header-bottom__action-4"}`}> 
                                  <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/register">
@@ -59,7 +59,7 @@ const HeaderFour = ({style_error}) => {
                                  ><i className="fal fa-bars"></i></a>
                               </div>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>
