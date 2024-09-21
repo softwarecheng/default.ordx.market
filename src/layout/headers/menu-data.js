@@ -19,7 +19,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Marketplace",
-    link: "https://ordx.market/market",
+    link: "https://app.ordx.market/market",
     active: "",
    
   },
@@ -29,7 +29,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Inscribe",
-    link: "https://ordx.market/inscribe",
+    link: "https://app.ordx.market/inscribe",
     active: "",
     // sub_menus: [
     //   { link: "/project", title: "Project" },
@@ -52,7 +52,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: false,
     title: "My Assets",
-    link: "https://ordx.market/account",
+    link: "https://app.ordx.market/account",
     active: "",
   },
   
