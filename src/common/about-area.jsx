@@ -85,7 +85,11 @@ const AboutArea = () => {
                               </ul>
                            </div>
                            {/* <div className="tp-about__btn">
+<<<<<<< HEAD
                               <Link className="tp-btn tp-btn-hover alt-color-black" href="https://app.ordx.market/market">
+=======
+                              <Link className="tp-btn tp-btn-hover alt-color-black" href="https://ordx.market/market">
+>>>>>>> 31d9fbf5928c53ccac7d1d6aaaccbe14e942efe8
                                  <span>{btn_text}</span>
                                  <b></b>
                               </Link>
