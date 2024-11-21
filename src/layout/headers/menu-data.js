@@ -52,7 +52,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: false,
     title: "My Assets",
-    link: "https://app.ordx.market/account",
+    link: "https://app.ordx.market/accoun.html",
     active: "",
   },
   
